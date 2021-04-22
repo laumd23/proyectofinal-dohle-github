@@ -1,0 +1,215 @@
+$size: 700px;
+$size-2:800px;
+$font-general: 40px "Titillium Web", sans-serif;
+$special-fontsize: 20px;
+
+@media (max-width: 768px){
+    /*footer*/
+    i.bi{
+        font-size: 20px;
+    }
+    .redes a{
+        font-size: 15px;
+    }
+    .redes__firmaAutor{
+        width: 80px;
+        height: 20px;
+    }
+
+    /*index*/
+    .cita{
+        font-size: 20px;
+    }
+    .autor{
+        font-size: 15px;
+    }
+}
+
+
+
+$medidas: (
+    x-small: 576px,
+    small: 769px,
+    medium: 981px,
+    large: 1200px,
+    x-large:2000px,
+);
+
+@mixin mq($key) {
+    $size: map-get($medidas, $key);
+    @media only screen and (min-width:$size){
+        @content;
+    }
+}
+
+//html sobre mi//
+
+.h2{
+    @include mq(x-small) {
+        font-size: 20px;
+    }
+    @include mq(small) {
+        font-size: 20px;
+    }
+    @include mq(medium) {
+        font-size: 30px;
+    }
+    @include mq(large){
+        font-size: 38px;
+    }
+    @include mq(x-large){
+        font-size: 40px;
+    }
+}
+
+#videoEstudio{
+    @include mq(x-small) {
+        width: 280px;
+        height: 330px;
+    }
+    @include mq(small) {
+        width: 380px;
+        height: 430px;
+    }
+    @include mq(medium) {
+        width: 550px;
+        height: 600px;
+    }
+    @include mq(large){
+        width: 600px;
+        height: 700px;
+    }
+    @include mq(x-large){
+        width: 680px;
+        height: 780px;
+    }
+}
+.content__text{
+    p{
+        @include mq(x-small) {
+            font-size: 12px;
+        }
+        @include mq(small) {
+            font-size: 14px;
+        }
+        @include mq(medium) {
+            font-size: 20px;
+        }
+        @include mq(large){
+            font-size: 28px;
+        }
+        @include mq(x-large){
+            font-size: 30px;
+        }
+    }
+}
+.fotoEstudio{
+    @include mq(x-small) {
+        width: 100px;
+        height: 100px;
+    }
+    @include mq(small) {
+        width: 128px;
+        height: 128px;
+    }
+    @include mq(medium) {
+        width: 145px;
+        height: 145px;
+    }
+    @include mq(large){
+        width: 217px;
+        height: 217px;
+    }
+    @include mq(x-large){
+        width: 220px;
+        height: 220px;
+    }
+}
+
+//html sobre mi//
+.sobreMi{
+    @include mq(x-small) {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    @include mq(small) {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    @include mq(medium) {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    @include mq(large){
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    @include mq(x-large){
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    
+    }
+}
+#fotoPersonal{
+    @include mq(x-small) {
+        width: 200px;
+        height: 300.8px;
+    }
+    @include mq(small) {
+        width: 200px;
+        height: 300.8px;
+    }
+    @include mq(medium) {
+        width: ($size-2)/2;
+        height: 501.6px;
+    }
+    @include mq(large){
+        width: ($size-2)/2;
+        height: 501.6px;
+    }
+    @include mq(x-large){
+        width: ($size-2)/2;
+        height: 501.6px;
+    }
+}
+
+.sobreMi__div--texto    {
+    @include mq(x-small) {
+        font-size: 20px;
+    }
+    @include mq(small) {
+        font-size: 26px;
+    }
+    @include mq(medium) {
+        font-size: 30px;
+    }
+    @include mq(large){
+        font-size: 38px;
+    }
+    @include mq(x-large){
+        font-size: $font-general;
+    }
+}
+.sobreMi__div--parrafo{
+    @include mq(x-small) {
+        font-size: 18px;
+    }
+    @include mq(small) {
+        font-size: 19px;
+    }
+    @include mq(medium) {
+        font-size: 20px;
+    }
+    @include mq(large){
+        font-size: 28px;
+    }
+    @include mq(x-large){
+        font-size: ($font-general)-10px;
+    }
+}
+
+//html trabajos//
+

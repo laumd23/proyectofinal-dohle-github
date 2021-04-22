@@ -1,0 +1,153 @@
+
+$font-general: 40px "Titillium Web", sans-serif;
+$color: #ffcc00;
+$special-fontsize: 20px;
+$font-family: "Titillium Web", sans-serif;
+$negrita: bold;
+$card-height: 100%;
+$size: 700px;
+$size-2:800px;
+$content: hidden;
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*cuerpo*/
+body {
+    background-image: url(./../images/Fondo.png);
+    background-position: center;
+    background-repeat: repeat;
+    color: $color;
+    font-family: $font-family;
+}
+section {
+    font-family: $font-family;
+}
+p {
+    text-align: justify;
+    margin: 2px;
+}
+.texto__parrafo{
+    font-size: $special-fontsize;
+}
+/*index*/
+
+.cita {
+    font-size: 40px;
+    text-align: center;
+    font-weight: $negrita;
+    text-shadow: 2px 2px #000;
+}
+.autor {
+    font-size: 30px;
+    font-weight: $negrita;
+    text-align: right;
+    margin-bottom: 20px;
+    margin-right: 18px;
+    text-shadow: 2px 2px #000;
+}
+.container{
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    margin: 0;
+    padding: 1px;
+}
+.container__Cita{
+    position: absolute;
+    z-index: 999;
+    align-content: center;
+    top: 45%;
+    bottom: 50%;
+    right: 5%;
+    left: 5%;
+}
+.carousel-inner{
+    height: auto;
+}
+
+/*trabajos*/
+.card-title{
+    color: $color;
+    font-weight: $negrita;
+    font-size: ($special-fontsize)+10px;
+}
+
+/*estudio*/
+.content{
+    display: flex;
+    flex-direction: row;
+}
+.h2 {
+    font-size: 20px;
+    text-align: center; 
+    margin-top: 2px;
+    font-weight: $negrita;
+}
+#videoEstudio {
+    width: 280px;
+    height: 330px;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+.fotoEstudio{
+    width: 64px;
+    height: 64px;
+    margin: 3px;
+}
+
+.content__photo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 5px;
+}
+.content__text p{
+    font-size: 10px;
+}
+
+/*dibujos y pintura/tattooart*/
+.card{
+    background-color: rgba($color: #000000, $alpha: 0.4);
+}
+.h-100{
+    justify-content: center;
+}
+
+/*sobre mi*/
+#fotoPersonal {
+    width: 200px;
+    height: 300.8px;
+    margin: auto;
+    margin-bottom: 5px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobreMi{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 5px;
+}
+.sobreMi__div--texto{
+    text-align: center;
+    font-weight: $negrita;
+    font-size: 20px;
+}
+.sobreMi__div--parrafo{
+    font-size: 16px;
+}
+/*Contacto*/
+h4{
+    font-weight: bold;
+}
+section{
+    div.container{
+        margin: 2px;
+    }
+}
