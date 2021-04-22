@@ -74,6 +74,7 @@ p {
     color: $color;
     font-weight: $negrita;
     font-size: ($special-fontsize)+10px;
+    text-align: center;
 }
 
 /*estudio*/
@@ -116,7 +117,10 @@ p {
 .h-100{
     justify-content: center;
 }
-
+.texto__h2{
+    font-size: $special-fontsize;
+    font-weight: $negrita;
+}  
 /*sobre mi*/
 #fotoPersonal {
     width: 200px;
