@@ -150,7 +150,7 @@ p {
   justify-content: center; }
 
 .texto__h2 {
-  font-size: 40px;
+  font-size: 40px "Titillium Web", sans-serif;
   font-weight: bold; }
 
 /*sobre mi*/
