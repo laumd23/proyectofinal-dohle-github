@@ -148,6 +148,10 @@ p {
 
 .h-100 {
   justify-content: center; }
+  
+.texto__h2{
+  font-size: 20px;
+  font-weight: bold;}
 
 /*sobre mi*/
 #fotoPersonal {
