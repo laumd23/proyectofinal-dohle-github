@@ -114,13 +114,22 @@ p {
 /*estudio*/
 .content {
   display: flex;
-  flex-direction: row; }
+  flex-direction: column-reverse; }
 
 .h2 {
   font-size: 20px;
   text-align: center;
   margin-top: 2px;
   font-weight: bold; }
+
+.content__video {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end; }
+
+.photos {
+  display: flex;
+  flex-direction: column; }
 
 #videoEstudio {
   width: 280px;
@@ -129,15 +138,9 @@ p {
   margin-top: 20px; }
 
 .fotoEstudio {
-  width: 64px;
-  height: 64px;
+  width: 4.81em;
+  height: 4.81em;
   margin: 3px; }
-
-.content__photo {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin: 5px; }
 
 .content__text p {
   font-size: 10px; }
@@ -248,6 +251,21 @@ i.bi {
   .autor {
     font-size: 15px; } }
 
+@media (max-width: 576px) {
+  /*footer*/
+  i.bi {
+    font-size: 25px; }
+  .redes a {
+    font-size: 0px;
+    color: transparent; }
+  .redes__firmaAutor {
+    width: 90px;
+    height: 30px; }
+  .redes {
+    margin-top: 75px; }
+  #carouselExampleFade {
+    margin-top: 50px; } }
+
 @media only screen and (min-width: 576px) {
   .h2 {
     font-size: 20px; } }
@@ -315,28 +333,28 @@ i.bi {
 
 @media only screen and (min-width: 576px) {
   .fotoEstudio {
-    width: 100px;
-    height: 100px; } }
+    width: 10em;
+    height: 10em; } }
 
 @media only screen and (min-width: 769px) {
   .fotoEstudio {
-    width: 128px;
-    height: 128px; } }
+    width: 13.12em;
+    height: 13.12em; } }
 
 @media only screen and (min-width: 981px) {
   .fotoEstudio {
-    width: 145px;
-    height: 145px; } }
+    width: 18.25em;
+    height: 18.25em; } }
 
 @media only screen and (min-width: 1200px) {
   .fotoEstudio {
-    width: 217px;
-    height: 217px; } }
+    width: 21.5em;
+    height: 21.5em; } }
 
 @media only screen and (min-width: 2000px) {
   .fotoEstudio {
-    width: 220px;
-    height: 220px; } }
+    width: 360px;
+    height: 360px; } }
 
 @media only screen and (min-width: 576px) {
   .sobreMi {

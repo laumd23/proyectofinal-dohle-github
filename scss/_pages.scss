@@ -80,13 +80,22 @@ p {
 /*estudio*/
 .content{
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
 }
 .h2 {
     font-size: 20px;
     text-align: center; 
     margin-top: 2px;
     font-weight: $negrita;
+}
+.content__video{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.photos{
+    display: flex;
+    flex-direction: column;
 }
 #videoEstudio {
     width: 280px;
@@ -95,17 +104,11 @@ p {
     margin-top: 20px;
 }
 .fotoEstudio{
-    width: 64px;
-    height: 64px;
+    width: 4.81em;
+    height: 4.81em;
     margin: 3px;
 }
 
-.content__photo{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: 5px;
-}
 .content__text p{
     font-size: 10px;
 }

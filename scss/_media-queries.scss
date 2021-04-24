@@ -24,8 +24,27 @@ $special-fontsize: 20px;
         font-size: 15px;
     }
 }
-
-
+@media (max-width: 576px){
+    /*footer*/
+    i.bi{
+        font-size: 25px;
+    }
+    .redes a{
+        font-size: 0px;
+        color: transparent;
+    }
+    .redes__firmaAutor{
+        width: 90px;
+        height: 30px;
+    }
+    .redes{
+        margin-top: 75px;
+    }
+    //index//
+    #carouselExampleFade{
+        margin-top: 50px;
+    }
+}
 
 $medidas: (
     x-small: 576px,
@@ -42,7 +61,7 @@ $medidas: (
     }
 }
 
-//html sobre mi//
+//html estudio//
 
 .h2{
     @include mq(x-small) {
@@ -105,24 +124,24 @@ $medidas: (
 }
 .fotoEstudio{
     @include mq(x-small) {
-        width: 100px;
-        height: 100px;
+        width: 10em;
+        height: 10em;
     }
     @include mq(small) {
-        width: 128px;
-        height: 128px;
+        width: 13.12em;
+        height: 13.12em;
     }
     @include mq(medium) {
-        width: 145px;
-        height: 145px;
+        width: 18.25em;
+        height: 18.25em;
     }
     @include mq(large){
-        width: 217px;
-        height: 217px;
+        width: 21.5em;
+        height: 21.5em;
     }
     @include mq(x-large){
-        width: 220px;
-        height: 220px;
+        width: 360px;
+        height: 360px;
     }
 }
 
