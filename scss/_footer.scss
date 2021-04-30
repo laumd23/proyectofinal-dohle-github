@@ -14,7 +14,7 @@ $color-redes: (
 .redes{
     margin: 0px 2px 0 2px;
     display: flex;
-    flex: row wrap;
+    flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
         a{
