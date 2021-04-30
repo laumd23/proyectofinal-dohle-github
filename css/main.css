@@ -58,11 +58,7 @@ body {
   background-position: center;
   background-repeat: repeat;
   color: #ffcc00;
-  font-family: "Titillium Web", sans-serif;
-  min-height: 100vh; }
-
-.height {
-  min-height: 100vh; }
+  font-family: "Titillium Web", sans-serif; }
 
 section {
   font-family: "Titillium Web", sans-serif; }
@@ -99,7 +95,7 @@ a {
   font-size: 40px;
   text-align: center;
   font-weight: bold;
-  text-shadow: 2px 2px #000; }
+  text-shadow: 2px 1.5px #000; }
 
 .autor {
   font-size: 30px;
@@ -107,7 +103,7 @@ a {
   text-align: right;
   margin-bottom: 20px;
   margin-right: 18px;
-  text-shadow: 2px 2px #000; }
+  text-shadow: 2px 1.5px #000; }
 
 .container {
   position: relative;
@@ -214,9 +210,6 @@ a {
 h4 {
   font-weight: bold; }
 
-section div.container {
-  margin: 2px; }
-
 /* animaciones y transformaciones*/
 footer {
   animation: animacion;
@@ -282,6 +275,8 @@ i.bi {
     font-size: 15px; } }
 
 @media (max-width: 576px) {
+  .height {
+    min-height: 60vh; }
   /*footer*/
   i.bi {
     font-size: 25px; }
@@ -292,7 +287,7 @@ i.bi {
     width: 90px;
     height: 30px; }
   #carouselExampleFade {
-    margin-top: 50px; } }
+    margin-top: 40px; } }
 
 @media only screen and (min-width: 576px) {
   .h2 {

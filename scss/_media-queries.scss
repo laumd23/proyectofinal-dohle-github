@@ -25,6 +25,10 @@ $special-fontsize: 20px;
     }
 }
 @media (max-width: 576px){
+    //cuerpo//
+    .height{
+        min-height: 60vh;
+    }
     /*footer*/
     i.bi{
         font-size: 25px;
@@ -39,7 +43,7 @@ $special-fontsize: 20px;
     }
     //index//
     #carouselExampleFade{
-        margin-top: 50px;
+        margin-top: 40px;
     }
 }
 

@@ -22,11 +22,8 @@ body {
     background-repeat: repeat;
     color: $color;
     font-family: $font-family;
-    min-height: 100vh;
 }
-.height{
-    min-height: 100vh;
-}
+
 section {
     font-family: $font-family;
 }
@@ -65,7 +62,7 @@ a{
     font-size: 40px;
     text-align: center;
     font-weight: $negrita;
-    text-shadow: 2px 2px #000;
+    text-shadow: 2px 1.5px #000;
 }
 .autor {
     font-size: 30px;
@@ -73,7 +70,7 @@ a{
     text-align: right;
     margin-bottom: 20px;
     margin-right: 18px;
-    text-shadow: 2px 2px #000;
+    text-shadow: 2px 1.5px #000;
 }
 .container{
     position: relative;
@@ -185,8 +182,4 @@ a{
 h4{
     font-weight: bold;
 }
-section{
-    div.container{
-        margin: 2px;
-    }
-}
+
