@@ -58,7 +58,8 @@ body {
   background-position: center;
   background-repeat: repeat;
   color: #ffcc00;
-  font-family: "Titillium Web", sans-serif; }
+  font-family: "Titillium Web", sans-serif;
+  min-height: 100vh; }
 
 section {
   font-family: "Titillium Web", sans-serif; }
@@ -68,7 +69,27 @@ p {
   margin: 2px; }
 
 .texto__parrafo {
-  font-size: 20px; }
+  font-size: 20px;
+  text-shadow: 2px 2px #000; }
+
+.ulsubMenu {
+  display: none;
+  margin: 0;
+  position: absolute;
+  background-color: #000;
+  list-style-type: none; }
+
+.ulsubMenu li > a {
+  font-size: 17px !important; }
+
+.nav-item:hover ul {
+  display: inline-block; }
+
+a {
+  text-decoration-color: #ffcc00 !important; }
+
+.dropdown-item {
+  padding: 0; }
 
 /*index*/
 .cita {
@@ -110,6 +131,12 @@ p {
   font-weight: bold;
   font-size: 30px;
   text-align: center; }
+
+.container__works {
+  padding: 10px;
+  margin: 10px;
+  margin-right: 0px;
+  margin-left: 0px; }
 
 /*estudio*/
 .content {
