@@ -8,13 +8,16 @@ $special-fontsize: 20px;
     i.bi{
         font-size: 20px;
     }
-    .redes a{
+    .redes{
+        a{
         font-size: 15px;
+        }
     }
     .redes__firmaAutor{
         width: 80px;
         height: 20px;
     }
+    
 
     /*index*/
     .cita{
@@ -33,17 +36,31 @@ $special-fontsize: 20px;
     i.bi{
         font-size: 25px;
     }
-    .redes a{
-        font-size: 0px;
-        color: transparent;
+    .redes {
+        margin-top: 5px;
+        a{
+            font-size: 0px;
+            color: transparent;
+        }
     }
     .redes__firmaAutor{
         width: 90px;
         height: 30px;
     }
     //index//
+    .height__index{
+        margin-top: 105px;
+    }
     #carouselExampleFade{
-        margin-top: 50px;
+        margin-top: 5px;
+    }
+    .redes__index{
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin-left: 0;
+        width: 100%;
     }
 }
 

@@ -280,14 +280,25 @@ i.bi {
   /*footer*/
   i.bi {
     font-size: 25px; }
-  .redes a {
-    font-size: 0px;
-    color: transparent; }
+  .redes {
+    margin-top: 5px; }
+    .redes a {
+      font-size: 0px;
+      color: transparent; }
   .redes__firmaAutor {
     width: 90px;
     height: 30px; }
+  .height__index {
+    margin-top: 105px; }
   #carouselExampleFade {
-    margin-top: 50px; } }
+    margin-top: 5px; }
+  .redes__index {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin-left: 0;
+    width: 100%; } }
 
 @media only screen and (min-width: 576px) {
   .h2 {
