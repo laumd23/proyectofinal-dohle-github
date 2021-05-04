@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta name="description" content="Bienvenido a nuestra página, adentrate en el mundo del arte, tanto en lienzo y papel, como en tatuajes. Arte Japones, Realismo y dibujos">
         <meta name="keywords" content="INICIO, PAGINA, HTML, ARTE, CUADROS, DIBUJOS, PINTURA, TATUAJES">
         <title>Inicio / Reaper Crew Art Studio / Estudio de Arte y Tatuajes</title>
@@ -60,13 +60,25 @@
                 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
                     <div class="carousel-inner carousel-inner__index">
                         <div class="carousel-item active">
-                        <img src="images/tatuando-1.jpg" class="d-block w-100" alt="tatuando-foto-a-color" srcset="images/tatuando-1-small.jpg 500w, images/tatuando-1-medium.jpg 700w">
+                          <picture>
+                            <source media="(max-width: 451px)" srcset="images/tatuando-1-small.jpg 451w">
+                            <source media="(max-width: 701px)" srcset="images/tatuando-1-medium.jpg 701w">
+                            <img src="images/tatuando-1.jpg" class="d-block w-100" alt="tatuando-foto-a-color">
+                          </picture>
                         </div>
                         <div class="carousel-item">
-                        <img src="images/tatuando-2.jpg" class="d-block w-100" alt="tatuando-foto-black-and-grey" srcset="images/tatuando-2-small.jpg 500w, images/tatuando-2-medium.jpg 700w">
+                          <picture>
+                            <source media="(max-width: 451px)" srcset="images/tatuando-2-small.jpg 451w">
+                            <source media="(max-width: 701px)" srcset="images/tatuando-2-medium.jpg 701w">
+                            <img src="images/tatuando-2.jpg" class="d-block w-100" alt="tatuando-foto-black-and-grey">
+                          </picture>
                         </div>
                         <div class="carousel-item">
-                        <img src="images/tatuando-3.jpg" class="d-block w-100" alt="tatuando-foto-tatuador-preparando-maquina-para-comenzar-a-tatuar" srcset="images/tatuando-3-small.jpg 500w, images/tatuando-3-medium.jpg 700w">
+                          <picture>
+                            <source media="(max-width: 451px)" srcset="images/tatuando-3-small.jpg 451w">
+                            <source media="(max-width: 701px)" srcset="images/tatuando-3-medium.jpg 701w">
+                            <img src="images/tatuando-3.jpg" class="d-block w-100" alt="tatuando-foto-tatuador-preparando-maquina-para-comenzar-a-tatuar">
+                          </picture>
                         </div>
                     </div>
                 </div>
